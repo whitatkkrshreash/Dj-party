@@ -1,0 +1,115 @@
+.text{
+    color: darkmagenta;
+    font-size: 23px;
+    text-shadow: 10px 10px 10px black;
+}
+#instructions{
+    color: darkslategray;
+    font-size: 23px;
+}
+
+canvas{
+    border: 5px ridge white;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px lightblue;
+    margin-top: 115px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.copy-right-footer{
+    bottom: 0;
+    background-color:cadetblue;
+    color:blue;
+    text-align: center;
+    margin-top: 87px;
+    font-size: 23px;
+    position: fixed;
+    width: 100%;
+    border-style: ridge;
+    border-width: 6px;
+    animation-name: color;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    opacity: 80%;
+}
+@keyframes color{
+    0%{border-color: red; color: red;}
+    10%{border-color:blue;color: blue;}
+    20%{border-color:green;color: green;}
+    30%{border-color:purple;color: purple;}
+    40%{border-color:pink;color:pink;}
+    50%{border-color:yellow;color: yellow;}
+    60%{border-color:orange;color:orange;}
+    70%{border-color:gray;color: gray;}
+    80%{border-color:black;color:black;}
+    90%{border-color:white;color: white;}
+    100%{border-color:red;color:red;}
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  body{
+      background-size: cover;
+      text-align: center;
+  }
+  .sidebar-button{
+      margin-right: 1372px;
+      box-shadow: 5px 5px 5px darkmagenta;
+  }
+  .header{
+      background-image: linear-gradient(purple, black);
+  }
